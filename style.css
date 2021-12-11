@@ -1,3 +1,383 @@
 body {
+    height: 100vh;
+    margin: 0;
+padding: 0; 
+    font-family: Roboto, sans-serif;
+  }
+
+
+    h1 {
+        font-family: 'Bangers', cursive;
+    font-size: 1.8em;
+    
+    }
+    
+    h2, h3 {
+        font-family: 'Bangers', cursive;
+    font-size: 1.2em;
+    }
+
+    p {
+        font-family: font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+        font-family: font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+
+    img {
+        width: 100px;
+      
+      }
+      
+
+.header {
+    font-family: font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    align-items: row;
+    background-color: #353839;
+    gap: 56px;
+}
+.logo {
+
+    display: flex;    
     
 }
+
+ .logo img {
+
+       width: 300px;    
+     
+
+    }
+
+
+.nav {
+    display: flex;    
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: row;
+
+}
+
+.nav-item { 
+    text-align:right;
+
+}
+
+.nav-item a {
+text-transform: uppercase;
+font-size: .8em;
+font-family: font-family: 'Roboto', sans-serif;
+color: #fff;
+text-decoration: none;
+
+}
+
+.nav-item a:visited {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-family:   font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    
+    }
+
+.nav-item ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+padding: 20px;
+background: #353839;
+
+
+}
+
+
+.container h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    color: #fff;
+}
+
+.container p {
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.container a {
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 20px;
+    background-color:#c20000; 
+    padding: 12px;
+
+}
+
+.container a:hover {
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 20px;
+    background-color:#940000; 
+    padding: 12px;
+
+}
+
+.container img {
+    width: 400px;
+
+}
+
+
+
+
+
+.insert {
+
+
+}
+
+
+
+
+.container-meat {
+    text-align: center;
+    background-color: #c20000;
+    margin-top: -21px;
+   
+
+}
+
+.meat { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+  
+}
+
+.meat-title {
+    
+
+}
+
+.meat-title h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    padding: 20px;
+    color: #fff;
+ 
+
+}
+
+
+.meat h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    color: #fff;
+ 
+}
+
+
+
+
+
+
+
+
+.meat p {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+.meats-photos {
+    width: 200px;
+  
+ 
+}
+
+.meats-photos-rounded {
+    border-radius: 15px;
+    background: #940000;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+.book-image img {
+    width: 300px;
+}
+
+
+
+
+.quote {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.quote h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 5em;
+    color: #c20000;
+}
+
+.quote h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    color: #940000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c20000;
+    border-radius: 5px;
+    padding: 50px;
+
+
+}
+
+.call-to-action P {
+color: #fff;
+padding: 10px;
+
+}
+
+.call-to-action h1 {
+    color: #fff;
+
+}
+.leftside a {
+    color: #fff;
+
+
+}
+.rightside a {
+
+
+    color: #fff;
+    border-radius: 10px;
+    background-color:#c20000; 
+ 
+    border: 2px solid #fff;
+    padding: 12px;
+
+}
+
+.rightside a:hover {
+
+
+    color: #c20000;
+    border-radius: 10px;
+    background-color:#fff; 
+ 
+    border: 2px solid #fff;
+    padding: 12px;
+
+}
+
+
+
+
+.meat-description {
+display:flex;
+justify-content: center;
+
+align-items: stretch;
+padding: 50px;
+}
+
+.meat-description h1 {
+
+    font-family: 'Bangers', cursive;
+    font-size: 5em;
+    color: #c20000;
+    padding: 5px;
+
+}
+
+.meat-description p {
+font-size: 2em;
+color: #c20000; 
+padding: 5px;
+
+}
+
+.fatmeat img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.footer {
+
+    background-color: black;
+    color: #ccc;
+    display:flex;
+    justify-content: center;
+
+}
+
+.footer p {
+
+  text-transform:uppercase;
+}
+
+.footer a {
+
+  color: #fff;
+  }
+
+  .footer a:hover {
+
+    color: #666;
+    }
